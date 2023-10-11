@@ -68,19 +68,19 @@ header {
     width: calc(50% - 15px); /* Calculate width for 2 projects per row with gap */
     height: 300px;
     margin-bottom: 20px;
-    margin-right: 15px; /* Set the right margin to control the gap */
+    margin-right: 15px;
     color: #d7d7d7;
     padding-left: 0px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a text shadow */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   
 }
 
 .project h2 {
-    padding-left: 15px; /* Add padding to indent the project header */
+    padding-left: 15px; 
     position: absolute;
     opacity: 1;
     transition: opacity 0.3s;
-    -webkit-text-stroke: 0.8px #252525; /* Add a text outline */
+    -webkit-text-stroke: 0.8px #252525;
     text-shadow: #252525;
 }
 .project-name{
@@ -109,10 +109,9 @@ header {
 .project-image {
     background-size: cover;
     background-position: center;
-    width: 100%; /* Set the width to 100% */
-    height: 100%; /* Set the height to 100% */
-    transition: filter 0.5s; /* Adjust the transition duration */
-}
+    width: 100%; 
+    height: 100%; 
+    transition: filter 0.5s;
 
 
 .project:hover .project-image {
@@ -129,14 +128,14 @@ header {
     position: relative;
 }
 .popup-content {
-    overflow-y: auto; /* Add vertical scrollbar when content overflows */
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
     max-height: 80vh; /* Limit the maximum height of the popup content */
 }
 
 .popup-button-container {
     display: flex;
     justify-content: center;
-    margin-top: auto; /* Pushes the container to the bottom */
+    margin-top: auto;
 }
 .popup {
     display: none;
@@ -151,16 +150,16 @@ header {
     z-index: 1000;
 }
 .popup-img {
-    max-width: 80%; /* Limit the image width to the size of the popup */
-    max-height: 70vh; /* Limit the image height to 70% of the viewport height */
-    margin: 0 auto 10px; /* Center the image and add some space below */
-    display: block; /* Make sure the image is displayed as a block element */
+    max-width: 80%;
+    max-height: 70vh; 
+    margin: 0 auto 10px; 
+    display: block; 
 }
 
 
 .popup-description {
-    font-size: 14px; /* Adjust the font size as needed */
-    color: #333; /* Adjust the text color as needed */
+    font-size: 14px;
+    color: #333; 
     text-align: center;
 }
 
@@ -173,12 +172,12 @@ header {
 .popup-description li {
     position: center;
     padding-left: 1em;
-    text-align: left; /* Adjust text alignment */
+    text-align: left; 
 }
 
 .popup-content button {
     background-color: transparent;
-    color: #252525; /* Change to the desired text color */
+    color: #252525;
     border: none;
     padding: 8px 20px;
     border-radius: 20px;
@@ -186,14 +185,14 @@ header {
     cursor: pointer;
     font-size: 16px;
     position: absolute;
-    bottom: 10px; /* Adjust this value for vertical spacing */
+    bottom: 10px; 
     left: 50%;
     transform: translateX(-50%);
 }
 
 .popup-content button:hover {
-    background-color: #252525; /* Change to the desired hover background color */
-    color: #ffffff; /* Change to the desired hover text color */
+    background-color: #252525; 
+    color: #ffffff; 
 }
 /* Styles for navigation bar */
 nav {
@@ -251,7 +250,7 @@ nav li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('backgroundImage.jpg'); /* Set your image path here */
+    background-image: url('backgroundImage.jpg');
     background-size: cover;
     background-color: #414141;
     color: white; 
